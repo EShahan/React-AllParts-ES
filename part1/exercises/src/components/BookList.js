@@ -1,6 +1,6 @@
 export default function BookList() {
-   let pageTitle = "shrug";
-   let book1 = "https://upload.wikimedia.org/wikipedia/commons/8/89/The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg";
+   let pageTitle = "Some books people made me read";
+   let book1 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgs3149eRVtMOdYmYifxodpRnQMol61SDoag&usqp=CAU";
    let book2 = "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Prayer_for_the_dying_poster.jpg/220px-Prayer_for_the_dying_poster.jpg";
    let book3 = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg/220px-To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg";
 

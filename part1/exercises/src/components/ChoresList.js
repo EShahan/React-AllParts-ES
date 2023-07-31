@@ -1,3 +1,3 @@
 export default function ChoresList () {
-   return <p>No content is here!</p>;
+   return <p>I finished all my chores!</p>;
 }
