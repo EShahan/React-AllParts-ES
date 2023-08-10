@@ -11,7 +11,7 @@ function App() {
         <RecipePhoto />
           <div>
             <RecipeDescription />
-            <RecipeIngredients />
+            <RecipeIngredients rating={4}/>
           </div>
       </div>
     </div>
