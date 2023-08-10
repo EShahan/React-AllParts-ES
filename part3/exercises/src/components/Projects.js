@@ -3,12 +3,10 @@ import {useState} from 'react';
 
 export default function MyProjects() {
     const [index, setIndex] = useState(0);
-    const projects = Object.keys(data);
+    const dataList = data.projects;
+    const dataDisplay = data.projects[index];
     function handleClick() {
-        console.log(index);
-        console.log(projects);
-        console.log(data);
-        if (index < projects.length-1)
+        if (index < data.projects.length-1)
         {
            setIndex(index + 1);
         }
@@ -22,8 +20,14 @@ export default function MyProjects() {
             <button onClick={handleClick}>
                 Next
             </button>
-            <h2></h2>
+            <ul>
+                <li>{dataDisplay.canvas}</li>
+                <li>{dataDisplay.designer}</li>
+                <li>{dataDisplay.photoUrl}</li>
+                <li>{dataDisplay.alt}</li>
+            </ul>
         </div>
+        
 
     );
 }

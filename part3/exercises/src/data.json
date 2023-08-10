@@ -1,6 +1,34 @@
 {
-    "canvas": "Fox",
-   "designer": "Pip and Roo",
-   "photoUrl": "long URL",
-   "alt": "Stitched fox with fluffy tail"
+    "projects" : [
+        {
+            "canvas": "Fox",
+            "designer": "Pip and Roo",
+            "photoUrl": "long URL",
+            "alt": "Stitched fox with fluffy tail"
+        },
+        {
+            "canvas": "Dog",
+            "designer": "Pip and Roo",
+            "photoUrl": "long URL",
+            "alt": "Stitched dog with fluffy tail"
+        },
+        {
+            "canvas": "Cat",
+            "designer": "Pip and Roo",
+            "photoUrl": "long URL",
+            "alt": "Stitched cat with fluffy tail"
+        },
+        {
+            "canvas": "Fish",
+            "designer": "Pip and Roo",
+            "photoUrl": "long URL",
+            "alt": "Stitched fish with fluffy tail"
+        },
+        {
+            "canvas": "Bear",
+            "designer": "Pip and Roo",
+            "photoUrl": "long URL",
+            "alt": "Stitched bear with fluffy tail"
+        }
+    ]
 }
