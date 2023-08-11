@@ -13,10 +13,8 @@ export default function StatusChange () {
 
    const handleSubmit = (event) => {
       event.preventDefault();
+      let inputBox = document.querySelector('input[type="text"]').value = '';
       setStatus(true)
-      console.log(document.querySelector('input[type="text"]'))
-      let inputBox = document.querySelector('input[type="text"]');
-      inputBox.value = '';
    }
 
    return (
